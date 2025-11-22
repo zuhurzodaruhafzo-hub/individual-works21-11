@@ -283,6 +283,12 @@
   .p-6 {
     padding: calc(var(--spacing) * 6);
   }
+  .p-14 {
+    padding: calc(var(--spacing) * 14);
+  }
+  .p-16 {
+    padding: calc(var(--spacing) * 16);
+  }
   .pt-6 {
     padding-top: calc(var(--spacing) * 6);
   }
@@ -308,6 +314,9 @@
   }
   .text-\[34px\] {
     font-size: 34px;
+  }
+  .text-\[54px\] {
+    font-size: 54px;
   }
   .text-\[\#605E5D0\] {
     color: #605E5D0;
