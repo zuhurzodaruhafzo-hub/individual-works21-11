@@ -9,6 +9,8 @@
       "Courier New", monospace;
     --color-white: #fff;
     --spacing: 0.25rem;
+    --text-6xl: 3.75rem;
+    --text-6xl--line-height: 1;
     --text-7xl: 4.5rem;
     --text-7xl--line-height: 1;
     --default-font-family: var(--font-sans);
@@ -164,14 +166,23 @@
   }
 }
 @layer utilities {
-  .mt-1 {
-    margin-top: calc(var(--spacing) * 1);
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
   }
-  .mt-6 {
-    margin-top: calc(var(--spacing) * 6);
+  .mt-7 {
+    margin-top: calc(var(--spacing) * 7);
   }
-  .mt-12 {
-    margin-top: calc(var(--spacing) * 12);
+  .mt-8 {
+    margin-top: calc(var(--spacing) * 8);
+  }
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
+  }
+  .mt-14 {
+    margin-top: calc(var(--spacing) * 14);
+  }
+  .mt-16 {
+    margin-top: calc(var(--spacing) * 16);
   }
   .mt-18 {
     margin-top: calc(var(--spacing) * 18);
@@ -194,8 +205,14 @@
   .h-\[54px\] {
     height: 54px;
   }
+  .h-\[75px\] {
+    height: 75px;
+  }
   .w-\[129px\] {
     width: 129px;
+  }
+  .w-\[237px\] {
+    width: 237px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -206,11 +223,17 @@
   .items-center {
     align-items: center;
   }
+  .justify-around {
+    justify-content: space-around;
+  }
   .justify-end {
     justify-content: flex-end;
   }
-  .gap-10 {
-    gap: calc(var(--spacing) * 10);
+  .gap-5 {
+    gap: calc(var(--spacing) * 5);
+  }
+  .gap-12 {
+    gap: calc(var(--spacing) * 12);
   }
   .gap-16 {
     gap: calc(var(--spacing) * 16);
@@ -218,6 +241,13 @@
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
+  }
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
+  .border-\[\#191919\] {
+    border-color: #191919;
   }
   .border-white {
     border-color: var(--color-white);
@@ -231,6 +261,10 @@
   .text-center {
     text-align: center;
   }
+  .text-6xl {
+    font-size: var(--text-6xl);
+    line-height: var(--tw-leading, var(--text-6xl--line-height));
+  }
   .text-7xl {
     font-size: var(--text-7xl);
     line-height: var(--tw-leading, var(--text-7xl--line-height));
@@ -240,6 +274,24 @@
   }
   .text-\[18px\] {
     font-size: 18px;
+  }
+  .text-\[20px\] {
+    font-size: 20px;
+  }
+  .text-\[\#605E5D\] {
+    color: #605E5D;
+  }
+  .text-\[\#191919\] {
+    color: #191919;
+  }
+  .text-\[\#989899\] {
+    color: #989899;
+  }
+  .text-\[\#FF4D01\] {
+    color: #FF4D01;
+  }
+  .text-\[18ox\] {
+    color: 18ox;
   }
   .text-white {
     color: var(--color-white);
