@@ -167,6 +167,9 @@
   }
 }
 @layer utilities {
+  .m-auto {
+    margin: auto;
+  }
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
   }
@@ -217,6 +220,15 @@
   }
   .h-\[296px\] {
     height: 296px;
+  }
+  .w-\[80\%\] {
+    width: 80%;
+  }
+  .w-\[90\%0\] {
+    width: 90%0;
+  }
+  .w-\[90\%\] {
+    width: 90%;
   }
   .w-\[129px\] {
     width: 129px;
@@ -291,6 +303,9 @@
   }
   .pt-6 {
     padding-top: calc(var(--spacing) * 6);
+  }
+  .pl-10 {
+    padding-left: calc(var(--spacing) * 10);
   }
   .text-center {
     text-align: center;
